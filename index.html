@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name ="viewport" content = "width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "css/main.css">
+    <title>myRation main</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,500;1,600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <a href="index.html" class="header__logo">
+                    <img src = "img/logo.svg">
+                </a>
+                <div class="header__nuv">
+                    <a href="#"><img class="header__burger" src="img/icon_burger.svg"></a>
+                    <a href="#"><img class="header__shop" src="img/Icon.svg"></a>
+                    <a href="#"><img class="header__lk" src="img/user-icon.svg"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="container">
+            <div class="banner__wrapper">
+                <img class="banner__logo" src="img/logo.svg">
+                <h1 class="banner__title media_query">Система здорового питания<br>с доставкой на дом</h1>
+                <button class="banner__btn"><h4>Выбрать рацион</h4></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ↓↓↓ PASHA ↓↓↓ -->
+    <section class = "advantages">
+        <div class="container">
+            <h2>Наши преимущества</h2>
+            <div class="advantages__block">
+                <div class="advantages__block__card box1">
+                    <img src= "img/adv1.svg">
+                    <h6>
+                        Составим индивидуальный рацион за вас
+                    </h6>
+                    <!-- <h6>Составим идндивидуальный рацион за вас</h6> -->
+                </div>
+                <div class="advantages__block__card box2">
+                    <img src= "img/adv2.svg">
+                    <h6>
+                        Рассчитаем КБЖУ и размер порций
+                    </h6>
+                </div>
+                <div class="advantages__block__card box3">
+                    <img src= "img/adv3.svg">
+                    <h6>
+                        Большой каталог блюд с подсчитанным КБЖУ
+                    </h6>
+                </div>
+                <div class="advantages__block__card box4">
+                    <img src= "img/adv4.svg">
+                    <h6>
+                        Отслеживаем прогресс и корректируем ваш рацион
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class = "Choose_your_target">
+        <div class="container">
+            <h2>Выбери свою цель</h2>
+            <div class="block">
+                <div class="box">
+                    <div class="content">
+                        <div class="left1">
+                            <h3>Снижение</h3>
+                            <h7>Программа с большим количеством белковой пищи в рационе.</h7>
+                            <button type="button"><h4>Выбрать</h4></button>
+                        </div>
+                        <div class="right1">
+                            <img src="img/choose_food_1.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <div class="left1">
+                            <h3>Баланс</h3>
+                            <h7>Помогает поддерживать вес, улучшить состояние здоровья.</h7>
+                            <button type="button"><h4>Выбрать</h4></button>
+                        </div>
+                        <div class="right1">
+                            <img src="img/choose_food_2.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <div class="left1">
+                            <h3>Набор</h3>
+                            <h7>Баланс быстрых и медленных углеводов в сочетании с белками и жирами.</h7>
+                            <button type="button"><h4>Выбрать</h4></button>
+                        </div>
+                        <div class="right1">
+                            <img src="img/choose_food_3.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                <div class="Choose_your_target_btn_text">
+                    <h4>Создать свою программу питания</h4>
+                    <img src="img/Vector_go.svg" alt="">
+                </div>    
+            </button>
+        </div>
+    </section>
+    <!-- ↑↑↑ NUR ↑↑↑ -->
+
+<!-- ↓↓↓ PASHA ↓↓↓ -->
+    <!-- БЛОК ВЫБОРА РАЦИОНА -->
+     <section class="program">
+        <div class="container">
+            <div class="buttons_type">
+                <button class="type_btn1"><h4>Базовый</h4></button>
+                <button class="type_btn2"><h5>Без мяса</h5></button>
+                <button class="type_btn3"><h5>Без рыбы</h5></button>
+            </div>
+            <div class="container_form">
+                <div class="description">
+                    <div class="description_text">
+                        <h3>Базовый</h3>
+                        <h6>Здоровая основа твоего рациона! Четыре сытных приема пищи в день: горячие блюда с достаточным содержанием белка и разнообразные салаты. При этом благодаря низкой калорийности позволит дополнительно потреблять напитки и фрукты. Меню не повторяется в течение 15 дней.</h6>
+                    </div>
+                    <div class="description_blocks">  
+                        <div class="description_blocks_left">
+                            <h6>Первый день <u>примерное меню:</u></h6>
+                            <div class="description_slider"></div>
+                            <img src="img/media_query/img_food.svg" class="img1" alt="">
+                            <img src="img/image_slider.svg" class="img2" alt="">
+                            <h4>1 прием</h4>
+                            <h7>Рисовый пудинг с ягодно-творожным кремом</h7>
+                        </div>
+
+                        <div class="description_blocks_right">
+                            <div class="slider_button">
+                                <button class="arrowLeft"><img src="img/icon_Last.svg"></button>
+                                <h7>Следующий день</h7>
+                                <button class="arrowRight"><img src="img/icon_Next.svg"></button>
+                            </div>
+                            <div class="menu_imgs">
+                                <img src="img/imgMenu1.svg" alt="">
+                                <img class="menu_imgs_top" src="img/imgMenu2.svg" alt="">
+                                <img class="menu_imgs_top" src="img/imgMenu3.svg" alt="">
+                                <img class="menu_imgs_bottom"src="img/imgMenu4.svg" alt="">
+                            </div>
+                            <div class="nutrition">
+                                <h6><u>Среднесуточный КБЖУ программы</u></h6>
+                                <div class="spreadsheet">
+                                    <div class="rectangle_1">
+                                        <div class="rectangle_1_text">
+                                            <h7>Ккал</h7>
+                                            <h7>1906</h7>
+                                        </div>
+                                    </div>
+                                    <div class="rectangle_2">
+                                        <div class="rectangle_2_text">
+                                            <h7>Белки</h7>
+                                            <h7>54</h7>
+                                        </div>
+                                    </div>
+                                    <div class="rectangle_3">
+                                        <div class="rectangle_3_text">
+                                            <h7>Жиры</h7>
+                                            <h7>38</h7>
+                                        </div>
+                                    </div>
+                                    <div class="rectangle_4">
+                                        <div class="rectangle_3_text">
+                                            <h7>Углеводы</h7>
+                                            <h7>112</h7>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form">
+                    <div class="media_query_content">
+                        <div class="form_description">
+                            <h4>4 блюда в день за 15$</h4>
+                            <h6>Доставки в удобное для вас время 4 дня в неделю</h6>
+                        </div>
+                        <div class="media_query_right">
+                            <div class="form_days">
+                                <h4>Количество дней</h4>
+                                <div class="form_days_buttons">
+                                    <button><h5>1</h5></button>
+                                    <button class="rectangle_btn"><h5>2</h5></button>
+                                    <button class="rectangle_btn"><h5>4</h5></button>
+                                    <button class="rectangle_btn"><h5>7</h5></button>
+                                    <button class="rectangle_btn"><h5>14</h5></button>
+                                </div>
+                            </div>
+                            <div class="form_price">
+                                <h5>Итого:</h5>
+                                <h3>30$</h3>
+                            </div>
+                            <div class="form_button">
+                                <button>
+                                    <h4>Оформить заказ</h4>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+<!-- ↑↑↑ PASHA ↑↑↑ -->
+    
+    <!-- ↓↓↓ NUR ↓↓↓ -->
+    <section class="stages">
+        <div class="container">
+            <div class="stages__wrapper">
+                <div class="stage stage1">
+                    <div class="imeg-icon">
+                        <img src="img/icon_basket.svg" alt="">
+                    </div>
+                    <div class="stages_text">
+                        <h6>Оформляете заказ</h6>
+                    </div>
+                </div>
+                <div class="stage stage2">
+                    <div class="imeg-icon">
+                        <img src="img/icon_call.svg" alt="">
+                    </div>
+                    <div class="stages_text">
+                        <h6>Созваниваемся и подтверждаем</h6>
+                    </div>
+                </div>
+                <div class="stage stage3">
+                    <div class="imeg-icon">
+                        <img src="img/icon_shop_car.svg" alt="">
+                    </div>
+                    <div class="stages_text">
+                        <h6>Доставляем еду к вам домой </h6>
+                    </div>
+                </div>
+                <div class="stage stage4">
+                    <div class="imeg-icon">
+                        <img src="img/icon_smiley.svg" alt="">
+                    </div>
+                    <div class="stages_text">
+                        <h6>Достигаете своей цели</h6>
+                    </div>
+                </div>
+                <img src="img/media_query/vector_1.svg" class="media_query_vector1" alt="">
+                <img src="img/media_query/vector_2.svg" class="media_query_vector2" alt="">
+                <img src="img/media_query/vector_3.svg" class="media_query_vector3" alt="">
+                <img src="img/media_query/vector_4.svg" class="media_query_vector4" alt="">
+
+                <img src="img/line_1.svg" class="line1" alt="">
+                <img src="img/line_2.svg" class="line2" alt="">
+                <img src="img/line_3.svg" class="line3" alt="">
+            </div>
+        </div>
+    </section>
+    
+    <section class="calorie_passcount">
+        <div class="container">
+            <div class="input_form">
+                <h2>Расчет необходимого количества калорий</h2>
+                <form action="#">
+                    <div class="left">
+
+                        <div class="gender">
+                            <h5>Пол:</h5>
+                            <div class="gender_choose">
+                                <div class="woman">
+                                    <div class="checked">
+                                        <input type="checkbox" id="title1">
+                                        <label class="switch3" for="title1" >
+                                            <img src="img/check_mark.svg" class="span3">
+                                        </label>
+                                    </div>
+                                    <h5>Жен.</h5>
+                                </div>
+                                <div class="human">
+                                    <div class="checked">
+                                        <input type="checkbox" id="title2">
+                                        <label class="switch3" for="title2" >
+                                            <img src="img/check_mark.svg" class="span3">
+                                        </label>
+                                    </div>
+                                    <h5>Муж.</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="age input">
+                            <h5>Возраст:</h5>
+                            <input type="text" class="calorie_passcount">
+                        </div>
+
+                        <div class="weight input">
+                            <h5>Вес:</h5>
+                            <input type="text" class="calorie_passcount">
+                        </div>
+                    </div>
+
+                    <div class="right">
+                        <div class="Growth input">
+                            <h5>Рост:</h5>
+                            <input type="text" class="calorie_passcount">
+                        </div>
+                        <div class="Target">
+                            <h5>Цель:</h5>
+                            <div class="buttons">
+                                <button class="btn" type="button"><h6>Снижение</h6></button>
+                                <button class="btn" type="button"><h6>Баланс</h6></button>
+                                <button class="btn" type="button"><h6>Набор</h6></button>
+                            </div>
+                            
+                        </div>
+
+                        <div class="Growth">
+                            <h5>Активность:</h5>
+                            <div class="activity">
+                                <select name = "activity" class="activity1">
+                                    <option value = "1"><h6>Каждый день</h6></option>
+                                    <option value = "2" ><h6>Раз в 2 дня</h6></option>
+                                    <option value = "3" ><h6>2 раза в неделью</h6></option>
+                                    <option value = "4" ><h6>1 раз в неделью</h6></option>
+                                </select >
+                                <img src="img/choose_vector_way_down.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <button class="btn1" type="button"><h4>Рассчитать</h4></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="Payment_and_delivery">
+        <div class="container">
+            <h2>Оплата и доставка</h2>
+            <div class="info_box">
+                <div class="box">
+                    <img src="img/icon_calendar.svg" alt="">
+                    <div class="text">
+                        <div class="title">
+                            <h4>Дни доставки:</h4>
+                        </div>
+                        <p>
+                            <h5>Понедельник, среда, пятница, воскресенье.</h5>
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/icon_watch.svg" alt="">
+                    <div class="text">
+                        <div class="title">
+                            <h4>Время доставки:</h4>
+                        </div>
+                        <p>
+                            <h5>Вы можете выбирать время доставки, которое вам будет удобно</h5>
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/icon_wallet.svg" alt="">
+                    <div class="text">
+                        <div class="title">
+                            <h4>Способы оплаты:</h4>
+                        </div>
+                        <p>
+                            <h5>Наличными курьеру, Безналичный платёж, рассрочка до 3 месяцев</h5>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="comments">
+        <div class="container">
+            <h2>Отзывы</h2> 
+            <div class="comment">
+                <div class="content">
+                    <div class="imeg">
+                        <img src="img/Photo_Comments.svg" alt="">
+                    </div>
+                    <div class="text_comment">
+                        <div class="title">
+                            <div class="email">
+                                <h3>@sofiyapolzun</h3>
+                            </div>
+                            <div class="stars">
+                                <div class="star"><img src="img/Icon_star.svg" alt=""></div>
+                                <div class="star"><img src="img/Icon_star.svg" alt=""></div>
+                                <div class="star"><img src="img/Icon_star.svg" alt=""></div>
+                                <div class="star"><img src="img/Icon_star.svg" alt=""></div>
+                                <div class="star"><img src="img/Icon_star.svg" alt=""></div>
+                            </div>
+                        </div>
+                        <p><h5>«Мне очень нравится ваша еда! У меня
+                            никогда не было каких-либо очень
+                            привередливых вкусов в еде, плюс когда я
+                            решила встать на «путь истинный» похудения, я понимала, что, мне не так
+                            важно, насколько это будет вкусно, как
+                            насколько это будет эффективно! Чтобы я
+                            не была голодной и при этом худела</h5>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slider">
+                <div class="last">
+                    <img src="img/icon_Last.svg" alt="">
+                </div>
+                <div class="rounds">
+                    <div class="round"><img src="img/active_round.svg" alt=""></div>
+                    <div class="round"><img src="img/icon_round.svg" alt=""></div>
+                    <div class="round"><img src="img/icon_round.svg" alt=""></div>
+                    <div class="round"><img src="img/icon_round.svg" alt=""></div>
+                    <div class="round"><img src="img/icon_round.svg" alt=""></div>
+                </div>
+                <div class="last">
+                    <img src="img/icon_Next.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="logo_novigation">
+                <div class="logo">
+                    <img src="img/logo.svg" alt="">
+                    
+                </div>
+                <div class="novigation">
+                    <a href="index.html"><h6>Наши рационы</h6></a>
+                    <a href="index.html"><h6>О компании</h6></a>
+                    <a href="index.html"><h6>Оплата и доставка</h6></a>
+                    <a href="index.html"><h6>Отзывы</h6></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <h7>© myRation 2022. </h7>
+                <a href="#"><h7>Все права защищены</h7></a>
+            </div>
+        </div>
+        
+    </footer>
+    <!-- ↑↑↑ NUR ↑↑↑ -->
+
+</body>
+</html>
